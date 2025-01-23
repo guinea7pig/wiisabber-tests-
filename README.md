@@ -1,1 +1,1 @@
-a compalation of tests file from wii saber needs some cleaning up though
+a compalation of tests for wiisaber before they go in mostly expeimiting with grrlib

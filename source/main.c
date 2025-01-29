@@ -15,22 +15,10 @@ int main(int argc, char **argv) {
     GRRLIB_Init();
 
     // Initialise the Wiimotes
-    WPAD_Init();
-
-    // Loop forever
-    while(1) {
-
-        WPAD_ScanPads();  // Scan the Wiimotes
-
-        // If [HOME] was pressed on the first Wiimote, break out of the loop
-        if (WPAD_ButtonsDown(0) & WPAD_BUTTON_HOME)  break;
-
-        // ---------------------------------------------------------------------
-        // Place your drawing code here
-        // ---------------------------------------------------------------------
+     WPAD_Init();
+        printff("this a test of grrlib stuff, mostly need to test images becuase thats whtats scewing me")
 
         GRRLIB_Render();  // Render the frame buffer to the TV
-    }
 
     GRRLIB_Exit(); // Be a good boy, clear the memory allocated by GRRLIB
 

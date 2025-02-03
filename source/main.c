@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
     // Initialise the Wiimotes
      WPAD_Init();
         printf("this a test of grrlib stuff, mostly need to test images becuase thats whtats scewing me")
-
+        GRRLIB
         GRRLIB_Render();  // Render the frame buffer to the TV
 
     GRRLIB_Exit(); // Be a good boy, clear the memory allocated by GRRLIB

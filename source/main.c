@@ -1,10 +1,4 @@
-
-/*===========================================
-        GRRLIB (GX Version)
-        - Template Code -
-
-        Minimum Code To Use GRRLIB
-============================================*/
+//mostly want to use the test images
 #include <grrlib.h>
 
 #include <stdlib.h>

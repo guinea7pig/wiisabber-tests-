@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
 
     // Initialise the Wiimotes
      WPAD_Init();
-        printff("this a test of grrlib stuff, mostly need to test images becuase thats whtats scewing me")
+        printf("this a test of grrlib stuff, mostly need to test images becuase thats whtats scewing me")
 
         GRRLIB_Render();  // Render the frame buffer to the TV
 
